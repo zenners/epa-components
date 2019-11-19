@@ -1,0 +1,916 @@
+
+/* backgrounds colors*/
+.bg-gold{
+    background-color: #B69530;
+}
+.bg-maroon{
+    background-color: #860606;
+}
+.bg-dark-green{
+    background-color: #203C42;
+}
+.bg-navy-blue{
+    background-color: #1C244E;
+}
+.bg-orange{
+    background-color: #BE4805;
+}
+.bg-gray{
+    background-color: #212529;
+}
+
+/* text */
+.text-gold{
+    color: #B69530;
+}
+
+.list-style-square{
+    list-style-type: square;
+}
+
+/* nav bar */
+.navbar_top_menu_container{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.navbar_top_menuitem{
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.15em;
+}
+
+.navbar_top_menuitem:hover{
+    color: #B69530;
+}
+
+.navbar_top_menuitem.active{
+    color: #B69530;
+}
+
+/* sidebar menu */
+.navbar_left_sticky_box{
+    -ms-flex-align: end;
+    align-items: flex-end;
+    border-right: 5px solid #B69530;
+}
+
+.navbar_left_sticky_menuitem{
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.15em;
+}
+
+.navbar_left_sticky_menuitem:hover{
+    color: #B69530;
+}
+
+.navbar_left_sticky_menuitem.active{
+    color: #B69530;
+}
+
+/* volume page */
+.volume_page{
+    padding: 5rem;
+    /* height: 100vh; */
+}
+
+.navbar_left_sticky_box_container{
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.section_title_text_onblack{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.tile_withimage_horizontal{
+    height: 30vh;
+}
+
+.volume_horizonal_image{
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 30vh;
+}
+
+.tile_withimage_horizontal_subtitle{
+    font-family: Roboto;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+}
+
+.masonry{
+    margin: 1.5em 0;
+    padding: 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    font-size: .85em;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+.masonry-item{
+    display: inline-block;
+    margin: 0 0 1.5em;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.18);
+    border-radius: 0px;
+    -moz-border-radius: 3px;
+}
+
+.volume_tag_small{
+    margin-bottom: 0px;
+    color: white;
+    width: 50%;
+    padding: 0.25rem;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+}
+
+/* card */
+.card-image{
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* breadcrumbs */
+.breadcrumbsstrip_links{
+    font-family: Roboto;
+    letter-spacing: 0.05em;
+    color: white;
+}
+.breadcrumbsstrip_links.active{
+    color: #B69530;
+}
+.breadcrumbsstrip_links:hover{
+    color: #B69530;
+}
+
+/* images */
+.images-container{
+    position: relative;
+    /* text-align: center; */
+    color: white;
+    width: 200px;
+    height: 200px;
+    /* overflow: hidden; */
+}
+
+.overlay_text_onimage_small_centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: Frank Ruhl Libre;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+}
+
+.image_centered{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 100%;
+    /* height: auto; */
+    height: 200px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+/* image top left overlay */
+.slider_hscrollable_wsquareimages_tag_topleft{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/* owl-carousel */
+.owl-nav{
+    text-align: center;
+}
+
+.owl-prev{
+    margin: 0.50rem;
+}
+
+.owl-images-container{
+    position: relative;
+    color: white;
+    height: 200px;
+}
+
+.slider_hscrollable_wsquareimages_imagecaption{
+    margin-bottom: 0px;
+    color: black;
+    padding: 0.25rem;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+}
+
+/* cover without search bar */
+.volumetag_big_volumename{
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 1rem;
+}
+
+.banner_subheader_onimage{
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    -ms-flex-align: center;
+    align-items: center;
+    letter-spacing: 0.05em;
+    background-color: #0000009e;
+    display: inline;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.banner_subheader_ondarkerimage{
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    -ms-flex-align: center;
+    align-items: center;
+    letter-spacing: 0.05em;
+    display: inline;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* article */
+.article_section_lineseparator{
+    border: 2px solid #B69530;
+}
+
+.article_paragraphtext{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: justify;
+    color: #000000;
+}
+
+.article-container{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-wrapper{
+    width: 50%;
+    float: left;
+    padding-right: 2rem;
+    padding-bottom: 10px;
+}
+/* media queries */
+@media (min-width: 200px) {
+    /* banner */
+    .banner_div{
+        padding: 2rem;
+    }
+    .banner_title_big{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        /* line-height: 90px; */
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .banner_subtitle{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 15px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+
+    .arrowbutton_down_withtext_animated{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-size: 11px;
+    }
+
+    /* cards */
+    .card_section_container{
+        text-align: center;
+        padding: 2rem;
+    }
+
+    /* buttons */
+    .card_button_ondarkoverlay{
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    /* volume */
+    .volume_page{
+        padding: 2rem;
+        /* height: 100vh; */
+    }
+
+    .navbar_left_sticky_box_container{
+        display: none;
+    }
+    
+    /* masonry images */
+    .masonry{
+        margin: 1.5em 0;
+        padding: 0;
+        -moz-column-gap: 1.5em;
+        -webkit-column-gap: 1.5em;
+        column-gap: 1.5em;
+        font-size: .85em;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 1;
+    }
+
+    /* cover */
+    .portalpage_banner_image{
+        background-size: cover;
+    }
+
+    .volumetag_big_numberonly{
+        font-family: Roboto;
+        font-size: 15px;
+        line-height: 0px;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        padding: 1rem;
+    }
+
+    .banner_header_onimage{
+        background-color: #0000009e;
+        display: inline;
+        line-height: 3rem;
+        font-family: Frank Ruhl Libre;
+        font-weight: 500;
+        font-size: 35px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 0.5rem;
+    }
+
+    .banner_header_ondarkerimage{
+        display: inline;
+        line-height: 3rem;
+        font-family: Frank Ruhl Libre;
+        font-weight: 500;
+        font-size: 35px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 0.5rem;
+    }
+}
+
+@media (min-width: 576px) {
+    /* banner */
+    .banner_div{
+        padding: 5rem;
+    }
+
+    .banner_title_big{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 60px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .banner_subtitle{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 15px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+
+    .arrowbutton_down_withtext_animated{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-size: 17px;
+    }
+
+    /* cards */
+    .card_section_container{
+        text-align: center;
+        padding: 2rem;
+    }
+
+    /* buttons */
+    .card_button_ondarkoverlay{
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    /* volume */
+    .volume_page{
+        padding: 2rem;
+        /* height: 100vh; */
+    }
+
+    .navbar_left_sticky_box_container{
+        display: none;
+    }
+    
+    /* masonry images */
+    .masonry{
+        margin: 1.5em 0;
+        padding: 0;
+        -moz-column-gap: 1.5em;
+        -webkit-column-gap: 1.5em;
+        column-gap: 1.5em;
+        font-size: .85em;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 1;
+    }
+
+    /* cover */
+    .portalpage_banner_image{
+        background-size: cover;
+    }
+
+    .volumetag_big_numberonly{
+        font-family: Roboto;
+        font-size: 40px;
+        line-height: 30px;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        padding: 1.5rem;
+    }
+
+    .banner_header_onimage{
+        background-color: #0000009e;
+        display: inline;
+        line-height: 8.5rem;
+        font-family: Frank Ruhl Libre;
+        font-weight: 500;
+        font-size: 100px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 0.5rem;
+    }
+
+    .banner_header_ondarkerimage{
+        display: inline;
+        line-height: 8.5rem;
+        font-family: Frank Ruhl Libre;
+        font-weight: 500;
+        font-size: 100px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 0.5rem;
+    }
+}
+  
+@media (min-width: 768px) {
+    /* banner */
+    .banner_div{
+        padding: 5rem;
+    }
+
+    .banner_title_big{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 75px;
+        line-height: 90px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .banner_subtitle{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 25px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+
+    .arrowbutton_down_withtext_animated{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-size: 17px;
+    }
+
+    /* cards */
+    .card_section_container{
+        text-align: left;
+        padding: 3rem;
+    }
+
+    /* buttons */
+    .card_button_ondarkoverlay{
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    /* volume */
+    .volume_page{
+        padding: 2rem;
+        /* height: 100vh; */
+    }
+
+    .navbar_left_sticky_box_container{
+        display: block;
+    }
+    
+    /* masonry images */
+    .masonry{
+        margin: 1.5em 0;
+        padding: 0;
+        -moz-column-gap: 1.5em;
+        -webkit-column-gap: 1.5em;
+        column-gap: 1.5em;
+        font-size: .85em;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+
+    /* cover */
+    .portalpage_banner_image{
+        background-size: cover;
+    }
+
+    .volumetag_big_numberonly{
+        font-family: Roboto;
+        font-size: 40px;
+        line-height: 30px;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        padding: 1.5rem;
+    }
+
+    .banner_header_onimage{
+        background-color: #0000009e;
+        display: inline;
+        line-height: 8.5rem;
+        font-family: Frank Ruhl Libre;
+        font-weight: 500;
+        font-size: 100px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 0.5rem;
+    }
+
+    .banner_header_ondarkerimage{
+        display: inline;
+        line-height: 8.5rem;
+        font-family: Frank Ruhl Libre;
+        font-weight: 500;
+        font-size: 100px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 0.5rem;
+    }
+}
+  
+@media (min-width: 992px) {
+    /* banner */
+    .banner_div{
+        padding: 5rem;
+    }
+
+    .banner_title_big{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 90px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .banner_subtitle{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 25px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+
+    .arrowbutton_down_withtext_animated{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-size: 17px;
+    }
+
+    /* cards */
+    .card_section_container{
+        text-align: left;
+        padding: 3rem;
+    }
+
+    /* buttons */
+    .card_button_ondarkoverlay{
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    /* volume */
+    .volume_page{
+        padding: 5rem;
+        /* height: 100vh; */
+    }
+
+    .navbar_left_sticky_box_container{
+        display: block;
+    }
+    
+    /* masonry images */
+    .masonry{
+        margin: 1.5em 0;
+        padding: 0;
+        -moz-column-gap: 1.5em;
+        -webkit-column-gap: 1.5em;
+        column-gap: 1.5em;
+        font-size: .85em;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+
+    /* cover */
+    .portalpage_banner_image{
+        background-size: cover;
+    }
+
+    .volumetag_big_numberonly{
+        font-family: Roboto;
+        font-size: 40px;
+        line-height: 30px;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        padding: 1.5rem;
+    }
+
+    .banner_header_onimage{
+        background-color: #0000009e;
+        display: inline;
+        line-height: 8.5rem;
+        font-family: Frank Ruhl Libre;
+        font-weight: 500;
+        font-size: 100px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 0.5rem;
+    }
+
+    .banner_header_ondarkerimage{
+        display: inline;
+        line-height: 8.5rem;
+        font-family: Frank Ruhl Libre;
+        font-weight: 500;
+        font-size: 100px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 0.5rem;
+    }
+}
+  
+@media (min-width: 1200px) {
+    /* banner */
+    .banner_div{
+        padding: 5rem;
+        /* height: 100vh; */
+    }
+
+    .banner_title_big{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 90px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .banner_subtitle{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 25px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+
+    .arrowbutton_down_withtext_animated{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-size: 17px;
+    }
+
+    /* cards */
+    .card_section_container{
+        text-align: left;
+        padding: 3rem;
+    }
+
+    /* buttons */
+    .card_button_ondarkoverlay{
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    /* volume */
+    .volume_page{
+        padding: 5rem;
+        /* height: 100vh; */
+    }
+
+    .navbar_left_sticky_box_container{
+        display: block;
+    }
+    
+    /* masonry images */
+    .masonry{
+        margin: 1.5em 0;
+        padding: 0;
+        -moz-column-gap: 1.5em;
+        -webkit-column-gap: 1.5em;
+        column-gap: 1.5em;
+        font-size: .85em;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+
+    /* cover */
+    .portalpage_banner_image{
+        background-size: cover;
+    }
+
+    .volumetag_big_numberonly{
+        font-family: Roboto;
+        font-size: 40px;
+        line-height: 30px;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        padding: 1.5rem;
+    }
+
+    .banner_header_onimage{
+        background-color: #0000009e;
+        display: inline;
+        line-height: 9.5rem;
+        font-family: Frank Ruhl Libre;
+        font-weight: 500;
+        font-size: 100px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 0.5rem;
+    }
+
+    .banner_header_ondarkerimage{
+        display: inline;
+        line-height: 8.5rem;
+        font-family: Frank Ruhl Libre;
+        font-weight: 500;
+        font-size: 100px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 0.5rem;
+    }
+
+}
+/*# sourceMappingURL=custom.css.map */

@@ -1,0 +1,1 @@
+{"version":3,"sources":["form-validation.css"],"names":[],"mappings":"AAAA;EACE,gBAAgB;AAClB;;AAEA,gBAAgB,iBAAiB,EAAE","file":"form-validation.css","sourcesContent":[".container {\n  max-width: 960px;\n}\n\n.lh-condensed { line-height: 1.25; }\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["jumbotron.css"],"names":[],"mappings":"AAAA,yEAAyE;AACzE;EACE,mBAAmB;AACrB","file":"jumbotron.css","sourcesContent":["/* Move down content because we have a fixed navbar that is 3.5rem tall */\nbody {\n  padding-top: 3.5rem;\n}\n"]}
