@@ -24,3 +24,148 @@
   <script src="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/owlcarousel/owl.carousel.js"></script>
   <script src="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/owlcarousel/owl.carousel.min.js"></script>  
 {%- endif -%}
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true,
+        'positionFromTop': 50,
+        'fitImagesInViewport': true,
+        'disableScrolling': true
+      })
+  
+    $("#owl-example").owlCarousel({
+        center: false,
+        // items:2,
+        loop:false,
+        margin:10,
+        animateOut: 'slideOutDown',
+        animateIn: 'flipInX',
+        responsive:{
+          0:{
+              items:1,
+              nav:true,
+              loop: true,
+              dots: true
+          },
+          600:{
+              items:3,
+              nav:false
+          },
+          1000:{
+              items:5,
+              nav:false,
+              loop:false
+          }
+      }
+    });
+  
+    $("#owl-center-with-loop").owlCarousel({
+        center: true,
+        items:2,
+        loop:true,
+        margin:10,
+        responsive:{
+          0:{
+              items:1,
+              nav:true,
+              loop: true,
+              dots: true
+          },
+          600:{
+              items:3,
+              nav:false
+          },
+          1000:{
+              items:4,
+              nav:false,
+              loop:true
+          }
+      }
+    });
+  
+    $("#owl-with-lightbox").owlCarousel({
+        center: false,
+        items:2,
+        loop:false,
+        margin:10,
+        animateOut: 'slideOutDown',
+        animateIn: 'flipInX',
+        responsive:{
+          0:{
+              items:1,
+              nav:true,
+              loop: true,
+              dots: true
+          },
+          600:{
+              items:3,
+              nav:false
+          },
+          1000:{
+              items:5,
+              nav:false,
+              loop:false
+          }
+      }
+    });
+    
+    $("#owl-with-lightbox222").owlCarousel({
+        center: true,
+        items:2,
+        loop:true,
+        margin:10,
+        responsive:{
+          0:{
+              items:3,
+              nav:true,
+              loop: true,
+              dots: true
+          },
+          500:{
+              items:3,
+              nav:false
+          },
+          700:{
+              items:4,
+              nav:false
+          },
+          1000:{
+              items:6,
+              nav:false,
+              loop:true
+          }
+      }
+    });
+    $("#owl-with-lightbox-full-screen-modal").owlCarousel({
+        center: true,
+        items:2,
+        loop:true,
+        margin:10,
+        responsive:{
+          0:{
+              items:3,
+              nav:true,
+              loop: true,
+              dots: true
+          },
+          500:{
+              items:3,
+              nav:false
+          },
+          700:{
+              items:6,
+              nav:false
+          },
+          1000:{
+              items:6,
+              nav:false,
+              loop:true
+          }
+      }
+    });
+  });
+  
+  </script>
+  

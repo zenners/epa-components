@@ -29,6 +29,51 @@
       <li class="nav-item">
         <a class="nav-link {% if page.title == "Design" %}active{% endif %}" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/design/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Design</a>
       </li>
+      <li class="nav-item dropdown">
+          <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/page_types/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');" class="nav-link dropdown-toggle nav-link {% if page.title == "Page Types" %}active{% endif %}" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Page Types</span> <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/page_types/article_page" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Article Page</a></li>
+              <li><a class="dropdown-item" href="#">Main Landing Page</a></li>
+              <li><a class="dropdown-item" href="#">Portal Landing Page</a></li>
+              <li><a class="dropdown-item" href="#">Portal Chapter Page</a></li>
+              <li><a class="dropdown-item" href="#">Media Gallery Page</a></li>
+              <li><a class="dropdown-item" href="#">Search Results Page</a></li>
+              <li><a class="dropdown-item" href="#">Index Page</a></li>
+          </ul>
+      </li>
+      <li class="nav-item dropdown">
+          <a href="#" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Section Blocks</span> <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Full-screen Media</a></li>
+              <li><a class="dropdown-item" href="#">Page Cover</a></li>
+              <li><a class="dropdown-item" href="#">Page Chapter Section</a></li>
+              <li><a class="dropdown-item" href="#">Featured Media (Single)</a></li>
+              <li><a class="dropdown-item" href="#">Image Tiles Group 1 (Slider)</a></li>
+              <li><a class="dropdown-item" href="#">Image Tiles Group 2 (Flex Display Type)</a></li>
+              <li><a class="dropdown-item" href="#">Article Section (Heading and Body)</a></li>
+              <li><a class="dropdown-item" href="#">Popup</a></li>
+              <li><a class="dropdown-item" href="#">Footer</a></li>
+          </ul>
+      </li>
+      <li class="nav-item dropdown">
+          <a href="#" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Components</span> <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Navbar</a></li>
+              <li><a class="dropdown-item" href="#">Search Bar</a></li>
+              <li><a class="dropdown-item" href="#">Label</a></li>
+              <li><a class="dropdown-item" href="#">Button</a></li>
+              <li><a class="dropdown-item" href="#">Burron Groups</a></li>
+              <li><a class="dropdown-item" href="#">Hyperlink</a></li>
+              <li><a class="dropdown-item" href="#">Carousel</a></li>
+              <li><a class="dropdown-item" href="#">Card</a></li>
+              <li><a class="dropdown-item" href="#">Breadcrumb</a></li>
+              <li><a class="dropdown-item" href="#">Line Separator</a></li>
+              <li><a class="dropdown-item" href="#">Media and Caption Block</a></li>
+              <li><a class="dropdown-item" href="#">Quote block</a></li>
+              <li><a class="dropdown-item" href="#">Date Selection Strip</a></li>
+              <li><a class="dropdown-item" href="#">Letter Selection Strip</a></li>
+          </ul>
+      </li>
     </ul>
   </div>
 
